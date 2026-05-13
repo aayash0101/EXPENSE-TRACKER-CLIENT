@@ -5,6 +5,7 @@ import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import Expenses from './pages/Expenses'
 import Budgets from './pages/Budgets'
+import Layout from './components/Layout'
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth()
