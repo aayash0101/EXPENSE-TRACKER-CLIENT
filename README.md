@@ -1,16 +1,42 @@
-# React + Vite
+# ExpenseIQ Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React frontend for tracking personal expenses and budgets with real-time analytics.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+https://your-vercel-url.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+- React + Vite
+- Tailwind CSS v4
+- React Router v6
+- Recharts
+- Axios
+- Context API
 
-## React Compiler
+## ✨ Features
+- Register and login with JWT auth
+- Dashboard with spending analytics
+- Pie chart — spending by category
+- Bar chart — monthly spending over 6 months
+- Budget vs actual progress bars with color indicators
+- Full expense CRUD with category filtering and sorting
+- Monthly budget management per category
+- Protected routes
+- Responsive dark UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏃 Run Locally
 
-## Expanding the ESLint configuration
+1. Clone the repo
+   git clone https://github.com/your-username/expense-tracker-client
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies
+   npm install
+
+3. Create a .env file
+   VITE_API_URL=http://localhost:5000/api
+
+4. Start the dev server
+   npm run dev
+
+## 🔗 Backend Repo
+https://github.com/your-username/expense-tracker-api
