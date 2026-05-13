@@ -27,7 +27,7 @@ https://your-vercel-url.vercel.app
 ## 🏃 Run Locally
 
 1. Clone the repo
-   git clone https://github.com/your-username/expense-tracker-client
+   git clone https://github.com/aayash0101/EXPENSE-TRACKER-CLIENT
 
 2. Install dependencies
    npm install
@@ -39,4 +39,4 @@ https://your-vercel-url.vercel.app
    npm run dev
 
 ## 🔗 Backend Repo
-https://github.com/your-username/expense-tracker-api
+https://github.com/aayash0101/EXPENSE-TRACKER-API
